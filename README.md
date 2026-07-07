@@ -13,7 +13,7 @@ I build ML systems that run in production, not notebooks: fraud detection at 590
 | --------------------------------------------------------------------------------- | --------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
 | **[FraudShield](https://github.com/Aniketh-74/fraudshield)**                      | Real-time ML at scale — streaming, calibration, interpretability      | 0.954 ROC-AUC · 23ms end-to-end · 590K+ transactions · 12 microservices             |
 | **[Agentic RAG on Kubeflow](https://github.com/Aniketh-74/kubeflow-agentic-rag)** | K8s-native multi-agent RAG design (GSoC 2026 proposal) + upstream PRs | 3-collection Milvus architecture · intent routing · KFP/KServe · 30-case test suite |
-| **[Credit-Risk Pipeline](https://github.com/Aniketh-74/credit-risk-pipeline)**    | Production MLOps — drift detection → automated retraining             | Airflow DAG · MLflow champion aliasing · CB-PDD (arXiv 2412.10545)                  |
+| **[Credit-Risk Pipeline](https://github.com/Aniketh-74/credit-risk-ml-pipeline)**    | Production MLOps — drift detection → automated retraining             | Airflow DAG · MLflow champion aliasing · CB-PDD (arXiv 2412.10545)                  |
 | **RepoAtlas** _(in build)_                                                        | GraphRAG, MCP, eval design                                            | Flat-RAG vs GraphRAG ablation, RAGAS-measured                                       |
 
 _At Dell: built an NLP pipeline (BERTopic — sentence-transformers, UMAP, HDBSCAN, c-TF-IDF) processing 41,000+ enterprise feedback records. Internal codebase — happy to discuss the architecture._
